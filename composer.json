@@ -1,0 +1,31 @@
+{
+  "name": "gotovsky/image-uploader",
+  "description": "Uploads images",
+  "keywords": [
+    "upload"
+  ],
+  "homepage": "http://github.com/gotovsky/image-uploader",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Gotovsky",
+      "email": "skygsn@gmail.com",
+      "homepage": "http://gotovsky.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skygsn\\": "src/Skygsn"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {"Skygsn\\": "tests/Skygsn"}
+  }
+}
